@@ -31,7 +31,7 @@ public class Module1 {
 		// Launching application by calling method
 		m.launchApp(m.s.getCell(0, 0).getContents(), "C:\\Users\\Kishore Kumar\\Desktop\\Hybrid8\\Test Results\\Kishore\\Module1\\TC01\\launchapp.png");
 		// Verifying TitleLength
-		m.titlelength(30);
+		m.titlelength(50);
 		// Verifying Title Contains India
 		m.titleContains("India", true);		
 		// Importing Page Objects using Page factory 
